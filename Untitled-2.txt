@@ -1,0 +1,165 @@
+.bj {
+    background-image: url(../kaohe/lunbo1.jpg);
+    background-image: url(../kaohe/lunbo2.jpg);
+    background-image: url(../kaohe/lunbo3.jpg);
+    background-image: url(../kaohe/lunbo4.jpg);
+    background-repeat: no repeat;
+}
+
+.bj slideshow {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.bj middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bj navigation {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.bj button {
+    width: 50px;
+    height: 50px;
+    border: 2px solid #fff;
+    margin: 6px;
+    cursor: pointer;
+}
+
+.bj input[name=“r”] {
+    position: absolute;
+    visibility: hidden;
+}
+
+.bj slides {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.bj slide {
+    width: 100%;
+    transition: 1s;
+}
+
+.bj silde img {
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+}
+
+#r1:checked~.s1 {
+    margin-left: 0;
+}
+
+#r2:checked~.s1 {
+    margin-left: -100%;
+}
+
+#r3:checked~.s1 {
+    margin-left: -175%;
+}
+
+#r4:checked~.s1 {
+    margin-left: -200%;
+}
+
+
+
+<div class=" bj slideshow middle">
+        <div class="slides">
+            <input type="radio" name="r" id="r1" checked/>
+            <input type="radio" name="r" id="r2" />
+            <input type="radio" name="r" id="r3" />
+            <input type="radio" name="r" id="r4" />
+        </div>
+
+        <div class="bj navigation">
+            <label for="r1" class="bar"></label>
+            <label for="r2" class="bar"></label>
+            <label for="r3" class="bar"></label>
+            <label for="r4" class="bar"></label>
+        </div>
+    </div>
+
+
+
+.bj box1 {
+    top: 100px;
+    margin: 500px;
+    padding: 500px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+}
+
+.bj box1 {
+    top: 300px;
+    margin: 500px;
+    padding: 500px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+}
+
+.bj img {
+    width: 10px;
+    height: 10px;
+    color: #90a1a8;
+}
+
+<div class="box1">
+            <img src="../kaohe/zuojiantou.jpg"></img>
+        </div>
+        <div class="box2">
+            <img src="../kaohe/zuojiantou.jpg"></img>
+        </div>
+
+
+        .liutu img {
+    width: 100px;
+    height: 100px;
+    background: yellow;
+    transition: width 2s;
+    -moz-transition: width 2s;
+    /* Firefox 4 */
+    -webkit-transition: width 2s;
+    /* Safari and Chrome */
+    -o-transition: width 2s;
+    /* Opera */
+}
+
+.liutu hover {
+    width: 300px;
+}
+
+
+
+
+.box-flex p {
+    background-color: #eeeeee;
+    color: #626262;
+}
+
+
+
+.liutu {
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.liutu p {
+    text-align: center;
+    color: #626262;
+    margin-bottom: 50px;
+}

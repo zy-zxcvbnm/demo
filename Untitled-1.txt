@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+<html>
+<head>
+<p>
+<img src="/E:/图一.jpg" width="128" height="128" />
+</p>
+</head>
+</html>
